@@ -1,0 +1,453 @@
+body{
+background-color:darkred;}
+.round{}
+
+/*field of play*/
+.playMat{
+    margin-left:188px;
+    height:490px;
+    width:1100px;
+    border:solid black 2px;
+    display:flex;
+    flex-direction:column;
+    background-color:palevioletred;
+}
+
+/*card spots*/
+.pOneDeck {
+    position: absolute;
+    height: 123px;
+    width: 85px;
+    background-color: cadetblue;
+    left: 110px;
+    top: 86px;
+    border: solid black 1px;
+    border-radius: 10px;
+    color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+}
+.pOneGrave {
+    position: absolute;
+    height: 123px;
+    width: 85px;
+    background-color: cadetblue;
+    left: 110px;
+    top: 210px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+.pTwoGrave {
+    position: absolute;
+    height: 123px;
+    width: 85px;
+    background-color: lightgreen;
+    left: 110px;
+    top: 333px;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+.pTwoDeck {
+    position: absolute;
+    height: 123px;
+    width: 85px;
+    background-color: lightgreen;
+    left: 110px;
+    top: 455px;
+    border: solid black 1px;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.field {
+    position: absolute;
+    height: 123px;
+    width: 85px;
+    background-color: darkred;
+    right:50px;
+    top: 270px;
+    border:solid black 1px;
+    border-radius:10px;
+
+}
+
+
+
+/*round winers tab*/
+.playerOneRoundsWon{
+   height: 100px;
+    width:100px;
+    position:absolute;
+    top:70px;
+}
+.playerTwoRoundsWon {
+    top:435px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+
+/*player one side*/
+.playerOneInfo {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.playerOneScore{
+    margin-left:100px;
+}
+.playeOneEndRoundButton{
+    width:75px;
+    height:75px;
+    background-color:lightblue;
+    border-radius:100px;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:center;
+    margin-right:25px;
+}
+.playeOneEndRoundButton:hover{
+    background-color:cornflowerblue;
+}
+    .playeOneEndRoundButton:active {
+        height: 85px;
+        width: 85px;
+    }
+.playerOneHand {
+    height: 25%;
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+}
+.playerOneField {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/*player grave and deck pop ups*/
+.pOneGraveDisplay {
+    height: 130px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    display: inline-flex;
+    flex-direction: row;
+    top: 210px;
+}
+.pTwoGraveDisplay {
+    height: 130px;
+    width: 100%;
+    position: absolute;
+    background-color: blue;
+    display: inline-flex;
+    flex-direction: row;
+    bottom: 180px;
+}
+
+
+/*player two side*/
+.playerTwoField {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.playerTwoHand {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.playerTwoInfo {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.playerTwoScore {
+    margin-left: 100px;
+}
+.playeTwoEndRoundButton {
+    width: 75px;
+    height: 75px;
+    background-color: lightgreen;
+    border-radius: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-right: 25px;
+}
+.playeTwoEndRoundButton:hover{
+    background-color:forestgreen;
+}
+.playeTwoEndRoundButton:active{
+    height:85px;
+    width:85px;
+}
+
+
+/*cards makings*/
+.mother {
+    height: 125px;
+    width: 85px;
+    background-color: darkgreen;
+    border: solid black 1px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:column;
+}
+    .mother:hover {
+        height: 145px;
+        width: 105px;
+    }
+.seventh {
+    height: 125px;
+    width: 85px;
+    background-color: lightblue;
+    border: solid black 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+    .seventh:hover {
+        height: 145px;
+        width: 105px;
+    }
+.goverment {
+    height: 125px;
+    width: 85px;
+    background-color: darkgray;
+    border: solid black 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+    .goverment:hover {
+        height: 145px;
+        width: 105px;
+    }
+.magic {
+    height: 125px;
+    width: 85px;
+    background-color: lightcoral;
+    border: solid black 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+    .magic:hover {
+        height: 145px;
+        width: 105px;
+    }
+.land {
+    height: 125px;
+    width: 85px;
+    background-color: antiquewhite;
+    border: solid black 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.land:hover {
+    height: 145px;
+    width: 105px;
+}
+.reaper {
+    height: 125px;
+    width: 85px;
+    background-color: black;
+    border: solid black 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color:antiquewhite;
+}
+    .reaper:hover {
+        height: 145px;
+        width: 105px;
+    }
+.best {
+    height: 125px;
+    width: 85px;
+    background-color: red;
+    border: solid black 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+    .best:hover {
+        height: 145px;
+        width: 105px;
+    }
+
+.top {
+    height: 10%;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+img {
+    height: 40%;
+    width: 100%;
+}
+.info {
+    height: 35%;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size:8.8px;
+}
+    .info:hover {
+        height: 45%;
+        width: 100%;
+       
+    }
+.bottom {
+    height: 15%;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/*card back*/
+.cardBack {
+    height: 125px;
+    width: 85px;
+    background-image: linear-gradient(red, black, purple);
+    border: solid black 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*created divs*/
+.infoTab {
+    height: 70px;
+    width: 120px;
+    border: solid black 1px;
+    background-color: white;
+    font-size: 10px;
+}
+
+.option {
+    height: 125px;
+    width: 85px;
+    border: solid black 1px;
+    background-color: white;
+    border: solid black 1px;
+    font-size: 15px;
+}
+    .option:hover {
+        height: 135px;
+        width: 95px;
+        font-size: 10px;
+    }
+
+.yes {
+    height: 25%;
+    width: 100%;
+    border: solid black 1px;
+    background-color:yellow;
+    display:flex;
+    justify-content: center;
+}
+.yes:hover{
+    background-color:orange;
+}
+.no {
+    height: 25%;
+    width: 100%;
+    border: solid black 1px;
+    background-color: red;
+    display: flex;
+    justify-content: center
+}
+    .no:hover {
+        background-color: darkred;
+    }
+
+
+.destroyer {
+    height: 25%;
+    width: 100%;
+    border: solid black 1px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+.destroyer:hover{
+background-color:darkorange;
+}
+.rebirth {
+    height: 25%;
+    width: 100%;
+    border: solid black 1px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+    .rebirth:hover {
+        background-color: Highlight;
+    }
+.powerUp {
+    height: 25%;
+    width: 100%;
+    border: solid black 1px;
+    background-color: dimgray;
+    display: flex;
+    justify-content: center;
+}
+    .powerUp:hover {
+        background-color:darkslategray;
+    }
+.undo {
+    height: 25%;
+    width: 100%;
+    border: solid black 1px;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+}
+    .undo:hover {
+        background-color: crimson;
+    }
+
+.newRoundButton {
+    position:absolute;
+    width: 155px;
+    height: 85px;
+    background-color: darkred;
+    border-radius: 20px;
+    display: inline-flex;
+   align-items:center;
+   justify-content:center;
+    font-size:25px;
+    right:625px;
+}
+    .newRoundButton:hover {
+        background-color: red;
+    }
+    .newRoundButton:active {
+        width: 150px;
+        height: 80px;
+        background-color: orangered;
+    }
+
+.winStatement{
+    margin-left:400px;
+}
